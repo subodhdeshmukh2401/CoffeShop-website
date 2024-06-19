@@ -1,0 +1,779 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.header {
+    background-image: url(/img/masthead.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    width: 100%;
+}
+
+.navbar {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: rgb(23, 176, 193);
+}
+
+.navbar .logo {
+    font-family: "Mr De Haviland", cursive;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.navbar .nav {
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.navbar .nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar .nav ul li {
+    padding: 10px;
+}
+
+.text {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.text span {
+    font-size: 70px;
+    font-family: "Mr De Haviland", cursive;
+    color: rgb(47, 65, 100);
+}
+
+.text h1 {
+    font-size: 70px;
+}
+
+/* 2nd box*/
+
+.secound {
+    border: 2px solid;
+    height: auto;
+    width: 100%;
+    padding: 10px;
+}
+
+.secound .box {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.secound .box1 {
+    padding: 10px;
+    text-align: center;
+}
+
+
+.secound .box h3 span {
+    font-size: 50px;
+    color: aqua;
+    font-family: "Mr De Haviland", cursive;
+    padding: 20px;
+}
+
+.secound .box2 {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+.row .row1 {
+    width: 100%;
+    height: 5px;
+    padding: 4px;
+    background: linear-gradient(to right, orange 70%, grey 30%);
+}
+
+.secound .imgbox {
+    flex-wrap: wrap;
+
+}
+
+.secound .imgbox img {
+    height: auto;
+    width: 100%;
+}
+
+/* 3rd box */
+
+.thred {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: auto;
+    width: 100%;
+    color: #fff;
+    padding: 70px;
+
+}
+
+.thred .matterbox {
+    padding: 1px;
+}
+
+.thred .textbox {
+    text-align: center;
+    padding: 10px;
+}
+
+.thred .textbox h1 {
+    font-size: 40px;
+}
+
+.thred .vidaobox {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+/* 4th box */
+
+.foreth {
+    /* border: 2px solid blueviolet; */
+    height: auto;
+    width: 100%;
+    padding: 7px;
+    display: flex;
+}
+
+.foreth .mainimg {
+    height: auto;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.foreth .mainimg img {
+    height: 100%;
+    width: 100%;
+    display: none;
+
+}
+
+.foreth .matterbox {
+    display: flex;
+    width: 100%;
+    padding: 70px;
+
+}
+
+.foreth .matterbox .icon {
+    padding: 20px;
+}
+
+
+/* 5th box */
+
+.five {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    padding: 30px;
+
+}
+
+.five h1 {
+    font-size: 40px;
+}
+
+.five span {
+    font-family: "Mr De Haviland", cursive;
+    font-size: 30px;
+    color: #FFBA30;
+}
+
+
+/* 6th box */
+
+.six {
+    /* border: 2px solid orange; */
+    height: auto;
+    width: 100%;
+    padding: 40px;
+
+}
+
+.six .textbox {
+    text-align: center;
+    padding: 20px;
+}
+
+.six .textbox h1 {
+    font-size: 50px;
+}
+
+.six .textbox span {
+    font-family: "Mr De Haviland", cursive;
+    font-size: 30px;
+    color: #FFBA30;
+}
+
+.six .listbox ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 11px;
+    flex-wrap: wrap;
+    padding: 10px;
+    list-style: none;
+}
+
+/* 7 box */
+
+.seven {
+    /* border: 2px; */
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.cards {
+    background-image: url(/img/1.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.cards .card {
+    height: auto;
+    width: 100%;
+    opacity: 0;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;*/
+
+
+}
+
+.cards .card:hover {
+    opacity: 0.99;
+    background-color: black;
+    color: #fff;
+
+}
+
+.cards .card h1 {
+    transform: translateY(-50px);
+    transition: all 0.6s;
+}
+
+.cards:hover h1 {
+    transform: translateY(0px);
+}
+
+.cards .card p {
+    transform: translateX(-50px);
+    transition: all 0.6s;
+}
+
+.cards:hover p {
+    transform: translateX(0px);
+}
+
+
+#b {
+    background-image: url(/img/2.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+#c {
+    background-image: url(/img/3.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+#d {
+    background-image: url(/img/4.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+#e {
+    background-image: url(/img/5.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+#f {
+    background-image: url(/img/6.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+#g {
+    background-image: url(/img/7.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+#h {
+    background-image: url(/img/8.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+
+/* 8 box */
+
+.eight {
+    /* border: 2px solid orange; */
+    height: auto;
+    width: 100%;
+
+}
+
+.eight .textbox {
+    text-align: center;
+    padding: 20px;
+}
+
+.eight .textbox h1 {
+    font-size: 50px;
+}
+
+.eight .textbox span {
+    font-family: "Mr De Haviland", cursive;
+    font-size: 30px;
+    color: #FFBA30;
+}
+
+/* 9 box */
+
+.ninen {
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.contener2 {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    flex-wrap: wrap;
+    /* height: 300px; */
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    /* border: 2px solid; */
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.8);
+    margin: 10px;
+    justify-content: space-between;
+
+}
+
+.contener2 .card p span {
+    font-size: 70px;
+}
+
+button {
+    border: 2px solid;
+    width: 100%;
+    padding: 20px 0;
+}
+
+
+/* 10 box */
+
+.ten {
+    height: auto;
+    width: 100%;
+    background-color: black;
+    color: #fff;
+}
+
+.ten .mainbox {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.ten .textbox {
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.ten .textbox span {
+    font-family: "Mr De Haviland", cursive;
+    font-size: 30px;
+    color: #FFBA30;
+}
+
+.ten .imgbox {
+    background-image: url(/img/m1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-wrap: wrap;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+}
+
+#A2 {
+    background-image: url(/img/m2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+#A3 {
+    background-image: url(/img/m3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+
+.ten .imgbox img {
+    height: auto;
+    width: 100%;
+}
+
+.ten .imgbox span {
+    font-family: "Mr De Haviland", cursive;
+    font-size: 30px;
+    color: #FFBA30;
+    text-align: center;
+}
+
+.ten .imgbox .imgtext {
+    padding-top: 50%;
+    opacity: 0;
+}
+
+.ten .imgbox .imgtext .icon {
+    color: #FFBA30;
+}
+
+.ten .imgbox .imgtext:hover {
+    opacity: 1;
+    transition-delay: 0.25s;
+}
+
+
+/*  11 box */
+
+.eleven {
+    height: auto;
+    width: 100%;
+    padding: 50px;
+}
+
+.eleven .flotbox {
+    height: auto;
+    width: 100%;
+}
+
+.eleven .textbox2 {
+    text-align: center;
+    padding: 20px;
+}
+
+.eleven .textbox2 span {
+    font-family: "Mr De Haviland", cursive;
+    font-size: 30px;
+    color: #FFBA30;
+}
+
+.eleven .flottext {
+    height: auto;
+    width: 100%;
+    display: inline-flex;
+
+}
+
+.eleven .flottext span {
+    font-size: 50px;
+    padding: 20px;
+}
+
+/* box 12 */
+
+.twelv {
+    height: auto;
+    width: 100%;
+    text-align: center;
+
+
+}
+
+.twelv .alltext {
+    background-image: url(/img/reviews.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 80px;
+    flex-wrap: wrap;
+    padding: 40px;
+
+}
+
+.twelv .alltext span {
+    font-family: "Mr De Haviland", cursive;
+    font-size: 30px;
+    color: #FFBA30;
+}
+
+
+/* box 13 */
+
+.thartin {
+    border: 2px solid;
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.thartin .contactbox span {
+    font-family: "Mr De Haviland", cursive;
+    font-size: 30px;
+    color: #FFBA30;
+}
+
+.thartin .formbox {
+    height: auto;
+    width: 100%;
+    display: inline-block;
+    padding: 50px;
+    justify-content: space-between;
+}
+
+
+/* box 14 */
+.foretin {
+    border: 2px solid;
+    background-color: black;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    color: #FFBA30;
+    padding: 20px;
+
+}
+
+.foretin .list1 {
+    padding-left: 25%;
+    width: 10;
+    text-align: center;
+}
+
+
+.foretin .list1 ul {
+    list-style-type: none;
+    display: flex;
+
+
+
+}
+
+.foretin .icons {
+    padding: 20px;
+
+}
+
+.foretin .lastbox p span {
+    font-family: "Mr De Haviland", cursive;
+    font-size: 30px;
+    color: #FFBA30;
+}
+
+.foretin .lastbox p {
+    color: #fff;
+
+}
+
+/* media quaryes */
+
+@media only screen and (min-width:320px) {
+
+    .secound .imgbox img {
+        display: none;
+    }
+
+    .secound .row {
+        width: 100%;
+    }
+
+
+}
+
+
+@media only screen and (min-width:768px) {
+    .secound .imgbox img {
+        display: none;
+    }
+
+    .secound .row {
+        width: 100%;
+    }
+
+    .five {
+        text-align: left;
+    }
+
+    .foreth .mainimg img {
+        display: none;
+    }
+
+    .foreth .main .matterbox {
+        display: inline-flex;
+    }
+
+    #a,
+    #b,
+    #c,
+    #d,
+    #e,
+    #f,
+    #g,
+    #h {
+        width: 50%;
+    }
+
+    .ninen .contener2 .card {
+        width: 45%;
+    }
+
+    #A1,
+    #A2,
+    #A3 {
+        width: 50%;
+    }
+
+
+
+}
+
+
+@media only screen and (min-width:1024px) {
+    .secound .box .box1 {
+        width: 30%;
+    }
+
+    .secound .box .box2 {
+        width: 50%;
+    }
+
+    .secound .row {
+        width: 50%;
+    }
+
+    .secound .imgbox img {
+        display: flex;
+    }
+
+    .thred .matterbox {
+        display: flex;
+    }
+
+    .five .cantant h1 {
+        display: inline-block;
+
+    }
+
+    .foreth .mainimg img {
+        display: flex;
+    }
+
+    .foreth .main .matterbox {
+        display: flex;
+    }
+
+    #a,
+    #b,
+    #c,
+    #d,
+    #e,
+    #f,
+    #g,
+    #h {
+        width: 25%;
+
+    }
+
+    .ninen .contener2 .card {
+        width: 20%;
+    }
+
+    #A1,
+    #A2,
+    #A3 {
+        width: 30%;
+    }
+
+    .eleven .flotbox {
+        display: flex;
+    }
+
+
+}
